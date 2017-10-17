@@ -3,6 +3,6 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
-:nnoremap <F5> "=strftime("[%H:%M] ")<CR>p
-:inoremap <F5> <C-R>=strftime("[%H:%M] ")<CR>
+:nnoremap <leader>t "=strftime("[%H:%M] ")<CR>p
+:inoremap <leader>t <C-R>=strftime("[%H:%M] ")<CR>
 
