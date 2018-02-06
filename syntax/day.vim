@@ -21,10 +21,18 @@ syn region timestamp start="\[" end="]"
 
 
 " Colors
-highlight headers ctermfg=Red cterm=bold
 
-highlight todo ctermfg=DarkMagenta cterm=bold
-highlight done ctermfg=Grey cterm=italic
-highlight cancelled ctermfg=Grey ctermfg=Red
+" https://coolors.co/edae49-d1495b-00798c-30638e-003d5b
+let s:tc_dark_terra_cota = '#d1495b'
+let s:tc_max_yellow_red = '#edae49'
+let s:tc_metallic_seaweed = '#00798c'
+let s:tc_dark_imperial_blue = '#003d5b'
+let s:tc_bdazzled_blue = '#30638e'
 
-highlight timestamp ctermfg=Red cterm=underline
+let s:tc_grey = '#666666'
+
+exe 'hi! headers guifg='.s:tc_metallic_seaweed.' cterm=bold'
+exe 'hi! todo guifg='.s:tc_max_yellow_red.' cterm=bold'
+exe 'hi! done guifg='.s:tc_grey.' cterm=italic'
+exe 'hi! cancelled guifg='.s:tc_bdazzled_blue
+exe 'hi! timestamp guifg='.s:tc_dark_imperial_blue.' cterm=underline'
