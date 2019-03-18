@@ -22,11 +22,11 @@ syn region timestamp start="\[" end="]"
 
 " Colors
 
-" https://coolors.co/edae49-d1495b-00798c-30638e-003d5b
+" https://coolors.co/edae49-d1495b-00798c-30638e-457187
 let s:tc_dark_terra_cota = '#d1495b'
 let s:tc_max_yellow_red = '#edae49'
 let s:tc_metallic_seaweed = '#00798c'
-let s:tc_dark_imperial_blue = '#003d5b'
+let s:tc_dark_imperial_blue = '#457187'
 let s:tc_bdazzled_blue = '#30638e'
 
 let s:tc_grey = '#666666'
